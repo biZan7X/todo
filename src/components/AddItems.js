@@ -14,7 +14,8 @@ const AddItems = ({ onSubmit }) => {
 				value={term}
 				onChange={(e) => setTerm(e.target.value)}
 				type="text"
-				className="w-75 mx-3"
+				className="w-75 mx-3 px-3 rounded-pill shadow bg-light"
+				placeholder="So, what you wanna do today ?"
 			/>
 			<button
 				onClick={onClickHandler}
